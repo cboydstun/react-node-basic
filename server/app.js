@@ -7,5 +7,5 @@ app.get('/', cors(), function (req, res, next) {
 })
  
 app.listen(8080, function () {
-  console.log('CORS-enabled web server listening on port 8080')
+  console.log('CORS-enabled express API listening on port 8080')
 })
